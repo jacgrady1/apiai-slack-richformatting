@@ -47,10 +47,8 @@ def processRequest(req):
         res = makeWebhookResult(data)
         return res
     elif req.get("result").get("action") == "fetchtrending":
-        data = makeSlickQuery()
-        res = makeTrendingWebhookResult(data)
-        print ("data")
-        print (data)
+        # data = makeSlickQuery()
+        res = makeTrendingWebhookResult()
         print("res")
         print res
         return res
@@ -108,7 +106,7 @@ def makeYqlQuery(req):
 
     return "select * from weather.forecast where woeid in (select woeid from geo.places(1) where text='" + city + "')"
 
-def makeTrendingWebhookResult(data):
+def makeTrendingWebhookResult():
 
     speech = "Check these links out?"
 
