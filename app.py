@@ -87,7 +87,7 @@ def makeSlickQuery():
     #reproduce query strings 100% accurately so the one below is given
     #in case the reproduced version is not "correct".
     # requests.get('https://slick.video.yahoo.com/api/articleService?returnMeta=true', headers=headers, cookies=cookies)
-
+    print(responseArr)
     data = []
     for elem in responseArr:
         elemObj = str(elem.get("url"))
