@@ -49,6 +49,10 @@ def processRequest(req):
     elif req.get("result").get("action") == "fetchtrending":
         data = makeSlickQuery()
         res = makeTrendingWebhookResult(data)
+        print ("data")
+        print (data)
+        print("res")
+        print res
         return res
     else:
         return {}
