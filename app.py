@@ -118,7 +118,7 @@ def makeTrendingWebhookResult():
         "attachments": [
             {
                 "title": "channel1",
-                "title_link": "www.yahoo.com/news/fm-us-understands-turkeys-position-against-syrian-kurds-101104760.html",
+                "title_link": "https://www.yahoo.com/news/fm-us-understands-turkeys-position-against-syrian-kurds-101104760.html",
                 "color": "#36a64f",
             } , {
                 "title": "channel2",
