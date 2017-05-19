@@ -5,7 +5,6 @@ import json
 import os
 import requests
 
-import copy
 from flask import Flask
 from flask import request
 from flask import make_response
