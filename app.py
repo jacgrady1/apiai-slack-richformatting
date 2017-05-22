@@ -52,6 +52,10 @@ def processRequest(req):
         print("res")
         print res
         return res
+    elif req.get("result").get("action") == "translate":
+        return {
+            "translating": 'true'
+        }
     else:
         return {}
 
@@ -117,16 +121,16 @@ def makeTrendingWebhookResult():
         "text": speech,
         "attachments": [
             {
-                "title": "Billboard Music Awards: What Everyone Wore",
-                "title_link": "https://www.yahoo.com/style/billboard-music-awards-everyone-wore-slideshow-wp-233700899.html",
+                "title": "People Believe Melania Is Slapping Away President Trumpâs Hand in This Video",
+                "title_link": "https://www.yahoo.com/style/people-believe-melania-slapping-trumps-hand-away-video-154906883.html",
                 "color": "#36a64f",
             } , {
-                "title": "LeBron James calls out reporter after poor performance in loss to Celtics",
-                "title_link": "https://www.yahoo.com/sports/news/lebron-james-calls-reporter-poor-playoff-game-performance-045051137.html",
+                "title": "Michelle Obama Is Pink Perfection in an Off-the-Shoulder, $397 Top While Touring Italy",
+                "title_link": "https://www.yahoo.com/style/michelle-obama-pink-perfection-one-shoulder-397-top-italy-162056338.html",
                 "color": "#36a64f",
             }, {
-                "title": "Mississippi lawmaker calls for lynching in response to removing Confederate statues",
-                "title_link": "https://www.yahoo.com/news/mississippi-lawmaker-calls-lynching-response-removing-confederate-statues-152239433.html",
+                "title": "The Deep Meaning Behind Ivanka Trump's Hat in Israel",
+                "title_link": "https://www.yahoo.com/style/ivanka-trump-wears-tiny-hat-tel-aviv-153850198.html",
                 "color": "#36a64f",
             }
         ]
