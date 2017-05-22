@@ -121,7 +121,7 @@ def makeTrendingWebhookResult():
         "text": speech,
         "attachments": [
             {
-                "title": "People Believe Melania Is Slapping Away President Trumpâs Hand in This Video",
+                "title": "People Believe Melania Is Slapping Away President Trump Hand in This Video",
                 "title_link": "https://www.yahoo.com/style/people-believe-melania-slapping-trumps-hand-away-video-154906883.html",
                 "color": "#36a64f",
             } , {
