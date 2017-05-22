@@ -117,16 +117,16 @@ def makeTrendingWebhookResult():
         "text": speech,
         "attachments": [
             {
-                "title": "channel1",
-                "title_link": "https://www.yahoo.com/news/fm-us-understands-turkeys-position-against-syrian-kurds-101104760.html",
+                "title": "Billboard Music Awards: What Everyone Wore",
+                "title_link": "https://www.yahoo.com/style/billboard-music-awards-everyone-wore-slideshow-wp-233700899.html",
                 "color": "#36a64f",
             } , {
-                "title": "channel2",
-                "title_link": "www.yahoo.com/news/fm-us-understands-turkeys-position-against-syrian-kurds-101104760.html",
+                "title": "LeBron James calls out reporter after poor performance in loss to Celtics",
+                "title_link": "https://www.yahoo.com/sports/news/lebron-james-calls-reporter-poor-playoff-game-performance-045051137.html",
                 "color": "#36a64f",
             }, {
-                "title": "channel3",
-                "title_link": "www.yahoo.com/news/fm-us-understands-turkeys-position-against-syrian-kurds-101104760.html",
+                "title": "Mississippi lawmaker calls for lynching in response to removing Confederate statues",
+                "title_link": "https://www.yahoo.com/news/mississippi-lawmaker-calls-lynching-response-removing-confederate-statues-152239433.html",
                 "color": "#36a64f",
             }
         ]
